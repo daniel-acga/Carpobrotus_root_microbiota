@@ -6,6 +6,7 @@ library(tidyverse)
 library(rcompanion)
 library(reshape2)
 library(vegan)
+library(bestNormalize)
 library(ggplot2)
 
 setwd("~/Documents/seqs/bin")
