@@ -551,7 +551,7 @@ ps_fam_core <- prune_taxa(taxa_names(ps_inv)[tax_table(ps_inv)[, "Family"] %in% 
 
 # Run core analysis on filtered object
 core_fam<- core_members(ps_fam_core,
-                           detection = 0.003,    # 0.3% abundance
+                           detection = 0.005,    # 0.3% abundance
                            prevalence = 0.35)
 
 ps_corefam_final <- prune_taxa(core_fam, ps_fam_core)
