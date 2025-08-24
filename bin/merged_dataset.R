@@ -5,6 +5,7 @@ library(dplyr)
 library(rcompanion)
 library(reshape2)
 library(vegan)
+library(car)
 library(tidyverse)
 
 setwd("~/Documents/seqs/bin")
